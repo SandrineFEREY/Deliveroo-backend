@@ -1,11 +1,42 @@
 body {
   background-color: #eeefef;
 }
+header {
+  border: solid black 1px;
+  /* margin-left: 20px;
+  margin-bottom: 20px; */
+  background-color: white;
+}
+
+header p {
+  width: 50%;
+}
+
+.baseline {
+  border-top: 1px solid grey;
+  padding: 30px;
+}
+.baseline-container {
+  display: flex;
+}
+
+.baseline-img {
+  width: 350px;
+  height: 200px;
+}
 
 .block {
+  width: 1800px;
+  border: rgb(71, 255, 154) solid 4px;
+  display: flex;
+}
+
+.container-bis {
   width: 50%;
   margin-left: 20px;
+  border: rgb(51, 2, 10) solid 3px;
 }
+
 h2 {
   font-size: 20px;
   font-weight: bold;
@@ -15,12 +46,39 @@ h3 {
   font-size: 20px;
   margin-bottom: 20px;
 }
-.pavé {
-  background-color: white;
-  margin-bottom: 20px;
+
+.meals-container {
+  display: flex;
+  flex-wrap: wrap;
 }
-img {
-  width: 200px;
+
+.meals {
+  width: 380px;
+  background-color: white;
+  margin: 20px;
+  display: flex;
+  padding: 5px;
+}
+.meals-description {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.meals img {
+  width: 130px;
+  height: 130px;
   object-fit: cover;
   margin-top: 20px;
+  border-radius: 5px;
+}
+
+.panier {
+  width: 30%;
+  background-color: white;
+}
+
+button {
+  height: 40px;
+  width: 100%;
+  background-color: grey;
 }
